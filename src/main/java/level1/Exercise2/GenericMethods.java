@@ -25,9 +25,11 @@ public class GenericMethods<T> {
         this.property3 = (Person) property3;
     }
 
-    protected void printParameters() {
-        System.out.println(property1);
-        System.out.println(property2);
-        System.out.println(property3);
+    protected <T> void printParameters(T... properties) {
+        for (T prop : properties) {
+            System.out.println(prop);
+        }
+
+
     }
 }
