@@ -21,6 +21,7 @@ public class Person {
         this.name = name;
     }
 
+
     public String getSecondName() {
         return secondName;
     }
@@ -35,6 +36,14 @@ public class Person {
 
     protected void setYears(int years) {
         this.years = years;
+    }
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", secondName='" + secondName + '\'' +
+                ", years=" + years +
+                '}';
     }
 
 }

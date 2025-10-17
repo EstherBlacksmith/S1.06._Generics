@@ -13,27 +13,21 @@ public class GenericMethods <T> {
         this.property3 = Objects.requireNonNull(property3);
     }
 
-    public T getProperty1() {
-        return property1;
-    }
-
-    public void setProperty1(T property1) {
+    protected void setProperty1(T property1) {
         this.property1 = property1;
-    }
-
-    public T getProperty2() {
-        return property2;
     }
 
     protected void setProperty2(T property2) {
         this.property2 = property2;
     }
 
-    protected T getProperty3() {
-        return property3;
-    }
-
     protected void setProperty3(T property3) {
         this.property3 = property3;
+    }
+
+    protected void printParameters(){
+        System.out.println(property1);
+        System.out.println(property2);
+        System.out.println(property3);
     }
 }
