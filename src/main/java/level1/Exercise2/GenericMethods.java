@@ -1,8 +1,8 @@
-package Exercise2;
+package level1.Exercise2;
 
 import java.util.Objects;
 
-public class GenericMethods <T> {
+public class GenericMethods<T> {
     private T property1;
     private T property2;
     private T property3;
@@ -25,7 +25,7 @@ public class GenericMethods <T> {
         this.property3 = property3;
     }
 
-    protected void printParameters(){
+    protected void printParameters() {
         System.out.println(property1);
         System.out.println(property2);
         System.out.println(property3);

@@ -1,4 +1,4 @@
-package Exercise2;
+package level1.Exercise2;
 
 import java.util.Objects;
 
@@ -9,7 +9,7 @@ public class Person {
 
     public Person(String name, String secondName, int years) {
         this.name = Objects.requireNonNull(name);
-        this.secondName =  Objects.requireNonNull(secondName);
+        this.secondName = Objects.requireNonNull(secondName);
         this.years = years;
     }
 
@@ -37,6 +37,7 @@ public class Person {
     protected void setYears(int years) {
         this.years = years;
     }
+
     @Override
     public String toString() {
         return "Person{" +
