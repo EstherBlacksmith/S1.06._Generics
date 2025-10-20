@@ -1,6 +1,5 @@
 # S1.06.Generics
-
-Junit and AssertJ tests exercices
+Java Generics and Indefined Variables
 
 ## Level 1
 
@@ -34,7 +33,7 @@ git clone https://github.com/EstherBlacksmith/S1.06._Generics.git
 
 ## Usage
 
->Each exercise is in it's own package.
+>Each exercise is in it's own package. Level 1 and 2 are in the same exercises, because level 2 is an extra of the same code in the level 1.
 >
 >You can run the exercises in diferent ways,but we recommended use your favorite IDE sofware.
 
